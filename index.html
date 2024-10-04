@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIF</title>
+
+    <!-- Bootstrap CSS cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- swiper-css-cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Nav-bar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid container">
+        <a class="navbar-brand fs-3" href="#">Offcanvas navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3 d-flex gap-2 gap-lg-5 fs-5"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Success Stories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Enroll Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav-bar End -->
+
+    <!-- Hero section start -->
+
+    <section
+      class="hero d-flex justify-content-center align-items-center pt-5"
+      style="height: 100vh"
+    >
+      <div class="container text-center">
+        <h1 class="display-5 fw-bold">
+          Welcome to the National Institute of Freelancing
+        </h1>
+        <h3>Your Freelance Dream Starts Here!</h3>
+        <p class="lead mb-4">
+          Ready to break free from the 9-to-5 grind? Whether you're aiming to
+          build a side hustle or dive into full-time freelancing, we’ve got the
+          tools, tricks, and training to help you dominate the gig economy!
+        </p>
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+          Start your journey
+        </button>
+      </div>
+    </section>
+
+    <!-- Hero section End -->
+
+    <!-- About section start -->
+
+    <section class="about">
+      <div class="container">
+        <div class="px-4 py-5" id="featured-3">
+          <h2 class="pb-2 border-bottom text-center">
+            Why We're Your Secret to Freelancing Success
+          </h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="assets/images/download (5).jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Courses Crafted by Experts, Loved by Freelancers
+                  </h5>
+                  <p class="card-text">
+                    Learn from top-tier professionals who’ve been there, done
+                    that, and now want to see you win.
+                  </p>
+                  <a href=""
+                    >Learn more <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="assets/images/download (6).jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Learn Anywhere, Anytime</h5>
+                  <p class="card-text">
+                    Life's busy, we get it. Access our courses on your schedule,
+                    whether you’re an early riser or a night owl. Flexibility is
+                    our middle name.
+                  </p>
+                  <a href=""
+                    >Learn more <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="assets/images/images (1).jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">A Community That Has Your Back</h5>
+                  <p class="card-text">
+                    Freelancing doesn’t have to be lonely. Join a tribe of
+                    driven individuals where you can share tips, get advice, and
+                    collaborate on projects.
+                  </p>
+                  <a href=""
+                    >Learn more <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section End -->
+
+    <!-- Course intro section start -->
+
+    <section class="intro">
+      <div class="container">
+        <div class="heading text-center pb-5">
+          <h1>What’s in It for You?</h1>
+        </div>
+        <div class="cards d-flex flex-column gap-5">
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-sack-dollar fs-3"></i> Skills That Pay the Bills
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Master the hottest freelance skills—graphic design, web
+                  development, digital marketing, content creation, and more.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-chalkboard-user fs-3"></i> Real Mentors, Real
+              Impact
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  No cookie-cutter advice here! Our mentors work one-on-one with
+                  you, guiding you on everything from pricing strategies to
+                  client management.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <i class="fa-solid fa-medal fs-3"></i> Certifications That Shine
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Earn certificates that actually make clients notice you—and
+                  stand out in a crowded marketplace.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course intro section start -->
+
+    <!-- Motivation section start -->
+    <section class="motivation py-5">
+      <div class="container">
+        <div class="text py-5 text-center">
+          <h1>Ready to Level Up?</h1>
+          <p>
+            Here at the National Institute of Freelancing, we’re more than just
+            a school. We’re a launchpad for your success. You’ll not only gain
+            hands-on experience and build a killer portfolio—you’ll learn how to
+            pitch, negotiate, and grow a sustainable freelance business.
+          </p>
+        </div>
+        <div class="cards">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card d-flex align-items-center">
+                <i class="fa-solid fa-trophy fs-1 card-text pt-3"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Land Your First Client in 30 Days</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card d-flex align-items-center">
+                <i
+                  class="fa-solid fa-money-bill-trend-up fs-1 card-text pt-3"
+                ></i>
+                <div class="card-body">
+                  <h5 class="card-title">Skyrocket Your Income</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card d-flex align-items-center">
+                <i class="fa-solid fa-chalkboard-user fs-1 card-text pt-3"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Work From Anywhere</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Motivation section end -->
+
+    <!-- Testimonial section start -->
+
+    <section class="testimonial py-5 px-2 px-lg-0">
+      <div class="container">
+        <div class="heading text-center py-3 py-lg-5">
+          <h2>Our Graduates Are Crushing It!</h2>
+        </div>
+        <div class="container text-center">
+          <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+          <div class="row">
+            <div class="col-12 col-lg-8 pb-4 ">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"><i class="fa-brands fa-square-upwork"></i></a>
+                  <a href="#" class="card-link"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 pb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"><i class="fa-brands fa-square-upwork"></i></a>
+                  <a href="#" class="card-link"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+          <div class="row">
+            <div class="col-6 col-md-4 pb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"><i class="fa-brands fa-square-upwork"></i></a>
+                  <a href="#" class="card-link"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 pb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"><i class="fa-brands fa-square-upwork"></i></a>
+                  <a href="#" class="card-link"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 pb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"><i class="fa-brands fa-square-upwork"></i></a>
+                  <a href="#" class="card-link"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6  pb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"><i class="fa-brands fa-square-upwork"></i></a>
+                  <a href="#" class="card-link"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-8 col-md-6 pb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="card-link"><i class="fa-brands fa-square-upwork"></i></a>
+                  <a href="#" class="card-link"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columns are always 50% wide, on mobile and desktop -->
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial section end -->
+
+    <!-- CTA section start -->
+
+    <section class="cta">
+      <div class="container">
+        <div class="">
+          <div class="row align-items-center g-lg-5 py-5">
+            <div class="col-lg-7 text-center text-lg-start">
+              <h2>Join the Freelance Revolution Today!</h2>
+              <p>Why wait for the perfect opportunity? Create it!
+                Start your freelancing journey now with courses designed to set you up for long-term success. Your dream career is just a click away!</p>
+            </div>
+            <div class="col-md-10 mx-auto col-lg-5">
+              <form class="p-4 p-md-5 border rounded-3 bg-light">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="number" class="form-control" id="floatingPassword" placeholder="Whatsapp Number">
+                  <label for="floatingPassword">Whatsapp Number</label>
+                </div>
+                <div class="checkbox mb-3">
+                  <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                  </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Enroll Now</button>
+                <hr class="my-4">
+                <small class="text-center">We'll respond you as soon as possible</small>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- CTA section start -->
+
+
+     <!-- Footer section start -->
+      
+       <!-- Footer section end -->
+
+    <footer>
+      <!-- Bootstrap JS cdn link -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
+        "></script>
+
+      <!-- Fontawesome JS CDN -->
+      <script
+        src="https://kit.fontawesome.com/8716e712d6.js"
+        crossorigin="anonymous"
+      ></script>
+
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          },
+        });
+      </script>
+    </footer>
+  </body>
+</html>

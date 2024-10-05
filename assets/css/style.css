@@ -1,50 +1,88 @@
-:root {
-  /* Background Color */
-  --bg-white: #fff;
-  --bg-primary: #f6f2f2;
-  --bg-secondary: #110f31;
-  /* Text Color */
-  --text-white: #fff;
-  --text-black: #000;
-
-  /* Font Family */
-  --primary-font: "Rubik", sans-serif;
-  --secondary-font: "Roboto";
-}
-
 body {
-  padding: 0;
-  margin: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  -user-select: none;
+  background-color: #1a1a1a; /* Dark background */
+}
+
+nav {
+  color: white;
 }
 
 
-nav{
-  
-}
 
 
-.hero{
-    background-color:rgba(0, 0, 0, 0.776);
+.hero {
+  .content-box {
+    background-color: transparent;
     color: white;
-}
-
-.testimonial{
-
-  .swiper-wrapper {
-    .swiper-slide {
-      border-radius: 8px;
-      h3 {
-        color: var(--bg-secondary);
-      }
-
-      img {
-        width: 25%;
-        border-radius: 50%;
-      }
-    }
+    padding: 40px 20px 20px; /* Extra padding on top for the overlap */
+    border-radius: 10px;
+    border: 2px solid green;
+    text-align: center;
+    max-width: 700px;
+    margin: 50px auto;
+    position: relative;
+  }
+  .yellow-strip {
+    background-color: green;
+    color: white;
+    padding: 10px 0;
+    font-weight: bold;
+    position: absolute;
+    top: -20px; /* To overlap the main box */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid green;
+  }
+  .main-text {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  .sub-text {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
   }
 }
+
+
+
+.intro{
+    .heading{
+        color: white;
+    }
+}
+
+
+.benifits{
+
+    .text{
+        color: white;
+    }
+
+
+    .cards{
+
+        .card{
+
+            img{
+                width: 20%;
+            }
+        }
+    }
+}
+
+
+.testimonial{
+    color: white;
+    margin-bottom: 200px;
+
+    .card{
+        color: black;
+    }
+}
+
+
+
